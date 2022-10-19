@@ -1,0 +1,38 @@
+ruby-xpath (3.2.0-1) unstable; urgency=medium
+
+  [ Cédric Boutillier ]
+  * Use https:// in Vcs-* fields
+  * Bump Standards-Version to 3.9.7 (no changes needed)
+  * Run wrap-and-sort on packaging files
+
+  [ Pirate Praveen ]
+  * New upstream version 3.2.0
+  * Bump debhelper compatibility level to 11
+  * Use salsa.debian.org in Vcs-* fields
+  * Bump Standards-Version to 4.3.0 (no changes needed)
+  * Move debian/watch to gemwatch.debian.net
+  * Add myself as an uploader
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 05 Jan 2019 20:31:28 +0530
+
+ruby-xpath (2.0.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Refresh packaging with dh-make-ruby -w (Closes: #768940)
+  * Disable rspec2 tests
+
+ -- Christian Hofstaedtler <zeha@debian.org>  Wed, 09 Sep 2015 10:37:13 +0000
+
+ruby-xpath (2.0.0-1) unstable; urgency=low
+
+  * New upstream Release
+  * removing patch remove-bundler, upstream doesn't require bundler anymore
+    to run tests.
+
+ -- Markus Tornow <tornow@riseup.net>  Thu, 23 May 2013 02:36:57 +0200
+
+ruby-xpath (1.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #695484)
+
+ -- Markus Tornow <tornow@riseup.net>  Sat, 08 Dec 2012 22:57:18 +0100
